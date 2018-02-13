@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+<script>
+     getUserPlans();
+     showSignupNewplan();
+</script>
+
+<div class="hundredcentwide">
+
+<div class="fiftycentwide left">
+<h2  id="top">
+    You data plans
+    <span class="right">
+    <button class="text1em" onclick="location.href='#new_signup'">
+        Signup for new plan
+    </button>
+    </span>
+</h2>
+
+
+<table id="user_plans">
+    <tr>
+        <th>Plan Title</th>
+        <th></th>
+    </tr>
+</table>
+</div>
+
+<div class="fiftycentwide right">
+<h1 id="plan_info_scroll">Plan information</h1>
+    <table  id="plan_info">
+        <tr>
+            <th>Plan Logo</th>
+            <th> Plan name</th>
+            <th>Plan Provider</th>
+            <th> Plan description</th>
+        </tr>
+    </table>
+</div>
+
+</div>
+
+
+
+<br style="clear: both;">
+
+<br><br><br><br>
+<div class="hundredcentwide">
+<div class="sixtycentwide left">
+    <h1  id="new_signup_scroll">New plan signup</h1>
+    <table id="new_signup">
+        <tr>
+            <th>Plan Logo</th>
+            <th> Plan name</th>
+            <th>Plan Provider</th>
+            <th> Plan description</th>
+            <th>Plan Price</th>
+            <th></th>
+        </tr>
+    </table>
+    <p><a href="#top">back up</a></p>
+</div>
+<br><br>
+
+</body>
+</html>

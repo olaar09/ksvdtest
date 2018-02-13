@@ -1,0 +1,44 @@
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.text1em {
+    font-size: 1em;
+}
+
+.right {
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.fiftycentwide {
+    width: 49%;
+}
+
+.sixtycentwide{
+    width: 58%
+}
+
+.hundredcentwide{
+    width: 100%;
+}
+
+.fourtycentwide{
+    width: 38%;
+}
