@@ -17,4 +17,4 @@ To run project
 
 #xampp or other lamp servers
 
-Not tested with running from xampp or other lamp servers might run into (linking ) issues
+Not tested with running from xampp or other lamp servers. Might run into (linking ) issues
